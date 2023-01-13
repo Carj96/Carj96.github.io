@@ -1,0 +1,137 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: aliceblue;
+  font-size: 25px;
+  width: auto;
+}
+
+#mainPicture {
+  width: auto;
+  margin-left: 300px;
+  margin-bottom: 100px;
+  height: 100vh;
+  background-image: url(https://www.it-courses.by/wp-content/uploads/2018/06/20-Most-Common-Work-from-Home-Job-Titles.jpg);
+  background-repeat: no-repeat;
+  box-shadow: 1px 5px 10px 0;
+  background-size: cover;
+}
+
+.sidebar {
+  width: 300px;
+  margin: 0;
+  background-color: rgba(5, 4, 4, 0.2);
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 0 5px 10px 0px;
+  font-size: 30px;
+}
+
+.sidebar .name_logo {
+  margin-bottom: 200px;
+  margin-top: 0;
+  padding: 10px 5px 0;
+  font-size: 40px;
+  font-weight: bolder;
+  text-shadow: 1px 1px 3px;
+}
+.sidebar > a {
+  display: block;
+  color: black;
+  padding: 16px 20px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.sidebar > a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.sidebar .copyright {
+  color: black !important;
+  margin-top: 300%;
+  position: absolute;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.sidebar .copyright:hover {
+  background-color: rgba(5, 4, 4, 0) !important;
+  color: rgba(5, 4, 4, 0.5) !important;
+}
+
+#Profile {
+  margin: 100px 320px 50px;
+}
+
+#MyPhoto {
+  margin-left: 320px;
+}
+
+#about_me {
+  position: relative;
+  bottom: 950px;
+  margin-left: 1200px;
+}
+
+#about_me > div {
+  padding: 5px;
+  margin: 15px;
+}
+
+.myPhoto {
+  width: 700px;
+  display: block;
+  box-shadow: 0 5px 10px 0px;
+}
+
+details > p {
+  margin: 10px;
+}
+
+.Work ul {
+  margin-top: 0;
+}
+
+#projects {
+  margin: 0px 320px 0;
+}
+
+#contacts {
+  margin: 0 35%;
+  padding: 0;
+  width: 700px;
+  text-align: center;
+  height: 10px;
+}
+
+#contacts h2 {
+  height: 20px;
+}
+
+.hover-image-scale {
+  display: inline-block;
+  margin: 0 320px 100px;
+}
+.hover-image-scale a img {
+  transition: 1s;
+  display: block;
+
+  height: 300px;
+  width: 400px;
+  margin-left: 0;
+  box-shadow: 1px 2px 2px 0 black;
+}
+.hover-image-scale a img:hover {
+  transform: scale(2.5);
+}
+
+.icon {
+  padding-top: 20px;
+}
+.icon img {
+  height: 50px;
+  width: 50px;
+}
